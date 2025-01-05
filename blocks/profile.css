@@ -44,6 +44,17 @@
 
 .profile__add-btn {
   margin-left: auto;
+  background-color: #212121;
+  height: 52px;
+  width: 149px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.profile__plus {
+  padding-right: 4px;
 }
 
 @media screen and (max-width: 627px) {
