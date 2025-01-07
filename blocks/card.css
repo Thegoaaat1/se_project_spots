@@ -3,6 +3,7 @@
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 9px;
 }
 
 .card__content {
@@ -18,6 +19,18 @@
   background-color: transparent;
   border: none;
   opacity: 40%;
+}
+
+.card__title {
+  max-width: 353px;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  margin-top: 12px;
 }
 @media screen and (max-width: 627px) {
   .card__image {
