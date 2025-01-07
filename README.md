@@ -16,4 +16,4 @@ this website is designed to fit on computer, tablet , and phone screen and chang
 
 This webpage is deployed to Github pages
 
-
+https://Thegoaaat1.github.io/se_project_spots/index.html
