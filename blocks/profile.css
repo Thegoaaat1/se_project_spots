@@ -8,7 +8,7 @@
   margin-right: 20px;
   height: 190px;
   width: 190px;
-  border-radius: 9px;
+  border-radius: 12px;
 }
 
 .profile__column {
@@ -39,6 +39,7 @@
   max-width: 420px;
   color: #212121;
   opacity: 70%;
+  font-weight: 500;
 }
 
 .profile__edit-btn {
@@ -53,12 +54,14 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
+  cursor: pointer;
 }
 .profile__edit-btn:hover {
   opacity: 100%;
 }
 
 .profile__add-btn {
+  cursor: pointer;
   margin-left: auto;
   background-color: #212121;
   height: 52px;
@@ -67,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-top: auto;
 }
 .profile__add-btn:hover {
