@@ -70,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
+  border-radius: 8px;
   margin-top: auto;
 }
 .profile__add-btn:hover {
@@ -103,12 +103,15 @@
   }
   .profile__avatar {
     margin-right: 0;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     height: 80px;
     width: 80px;
   }
   .profile__add-btn {
     margin: 20px 0 0 0;
     width: 100%;
+  }
+  .profile__edit-btn {
+    align-self: center;
   }
 }

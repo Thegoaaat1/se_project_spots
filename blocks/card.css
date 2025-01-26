@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .card__like-btn {
@@ -24,6 +25,9 @@
   background-repeat: no-repeat;
   cursor: pointer;
 }
+.card__like-btn:hover {
+  opacity: 1;
+}
 
 .card__title {
   max-width: 353px;
@@ -34,8 +38,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   margin: 0;
-  margin-top: 12px;
 }
+
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
@@ -43,5 +47,9 @@
   .card__like-btn {
     width: 20px;
     height: 18px;
+  }
+  .card__title {
+    font-size: 16px;
+    max-width: 250px;
   }
 }
